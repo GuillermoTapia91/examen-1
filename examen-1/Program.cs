@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-
 string opcion = "";
 do
 {
@@ -14,8 +13,6 @@ do
     Console.WriteLine("5.Calcular el área de un círculo utilizando el radio ingresado por el usuario.");
     Console.WriteLine("6.Mostrar los elementos de un arreglo unidimensional predefinido.");
     Console.WriteLine("7.Mostrar nombres de personas almacenados en una lista predefinida.");
-
-
     Console.WriteLine("8.Salir.");
     Console.WriteLine("-------------------------------------------------------------------------------");
     Console.WriteLine("Ingrese un número de acuerdo a lo que desea realizar, segun el menú:");
@@ -173,7 +170,6 @@ void ImprimirCalcularAreaCirculo()
     int radioIngresado = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("");
     Console.Write("El área del círculo es " + CalcularAreaCirculo(radioIngresado));
-
 }
 
 //menu 6
@@ -196,7 +192,6 @@ void MostrarElementoArray()
 }
 
 //menu 7
-
 void ListarNombres()
 {
     List<string> nombres = new List<string>();
